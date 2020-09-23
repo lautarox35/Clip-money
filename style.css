@@ -32,7 +32,7 @@ body {
 .promo-tile {
     font-size: 40px;
     font-weight: 600px;
-    margin-top: 30px;
+
 }
 #banner a {
     color:#ffffff;
@@ -85,8 +85,8 @@ body {
 
 #about-us {
     background: rgb(122, 56, 56);
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 .about-title {
     font-size: 30px;
