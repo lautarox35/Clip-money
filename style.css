@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.affix + .container-fluid {
+  padding-top: 0px;
+}
+.navbar {
+    background-image:linear-gradient(to right, #681baf, #700b3d);
+    padding: 0;
+}
+
+
+/*-------------BANNER---------------*/
+
+#banner {
+    background-image: linear-gradient(to right, #681baf, #700b3d);
+    color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.promo-tile {
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 30px;
+}
+#banner a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/*-------------Services---------------*/
+
+#services {
+ padding: 80px 0;
+ background-image: linear-gradient(to right, #656169, #472c3a);
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+    
+}
+.services {
+    padding: 20px;
+    text-align: center;
+    
+}
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+    color: white;
+}
+.services p {
+    padding: 5px;
+    margin-top: 25px;
+    color: white;
+}
+.title {
+    padding: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #4e2674, #632544);
+}
+
+/*-------------About---------------*/
+
+#about-us {
+    background: rgb(122, 56, 56);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    color: #ffffff;
+}
+#about-us ul li {
+    margin-top: 10px 0;
+    color: #ffffff;
+    font-size: 20px;
+
+}
