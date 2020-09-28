@@ -29,6 +29,9 @@ body {
     padding-bottom: 5%;
 }
 
+#banner .img-fluid{
+    padding-top: 5%;
+}
 .promo-tile {
     font-size: 40px;
     font-weight: 600px;
@@ -37,6 +40,13 @@ body {
 #banner a {
     color:#ffffff;
     text-decoration: none;
+}
+#banner .btn-success{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #4e2674, #632544);
 }
 
 /*-------------Services---------------*/
